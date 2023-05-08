@@ -4,7 +4,7 @@ def isPalindrome(s):
     return s == s[::-1]
   
   
-# Driver code
+#Main Code
 s = input("Insert word here to verify if it is a palindrome or not: ")
 ans = isPalindrome(s)
   
